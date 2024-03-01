@@ -1,4 +1,4 @@
-package com.openlibrary.bookstore
+package com.openlibrary.bookstore.ui.account
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -9,16 +9,17 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.openlibrary.bookstore.ui.theme.MyBookTheme
 
 @Composable
-fun HomeScreen(){
+fun AccountScreen(){
+
     Box(modifier = Modifier.fillMaxSize()) {
-        Text(text = "HomeScreen")
+        Text(text = "AccountScreen")
     }
 }
 
 @Preview
 @Composable
-fun PreviewHomeScreen() {
+fun PreviewAccountScreen() {
     MyBookTheme(dynamicColor = false) {
-        HomeScreen()
+        AccountScreen()
     }
 }

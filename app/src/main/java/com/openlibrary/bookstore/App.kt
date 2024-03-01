@@ -25,6 +25,10 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.openlibrary.bookstore.ui.account.AccountScreen
+import com.openlibrary.bookstore.ui.cart.CartScreen
+import com.openlibrary.bookstore.ui.category.CategoriesScreen
+import com.openlibrary.bookstore.ui.home.HomeScreen
 import com.openlibrary.bookstore.ui.theme.BottomNavItem
 import com.openlibrary.bookstore.ui.theme.MyBookTheme
 import com.openlibrary.bookstore.ui.theme.Screen

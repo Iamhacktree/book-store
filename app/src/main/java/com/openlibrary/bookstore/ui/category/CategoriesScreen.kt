@@ -1,4 +1,4 @@
-package com.openlibrary.bookstore
+package com.openlibrary.bookstore.ui.category
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
